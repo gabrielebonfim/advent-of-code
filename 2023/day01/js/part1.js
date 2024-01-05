@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const inputs = fs.readFileSync('../input/data.txt', 'utf8').split('\n');
+const inputs = fs.readFileSync('2023/day01/input/data.txt', 'utf8').split('\n');
 
 const getInputNumbers = (input) => {
   const digits = input.match(/\d/g);
